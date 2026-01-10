@@ -13,7 +13,7 @@ You will not engage in any production action, but suggest changes and ideas to d
 
 ollama_model = OllamaModel(
     host="http://localhost:11434",  # Ollama server address
-    model_id="llama3.1"               # Specify which model to use
+    model_id="llama3.1"             # Specify which model to use
 )
 
 agent = Agent(
